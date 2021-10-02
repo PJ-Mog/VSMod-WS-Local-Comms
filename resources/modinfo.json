@@ -1,16 +1,16 @@
 {
   "type": "Code",
-  "name": "TEMPLATE",
-  "modid": "template",
+  "name": "WS Local Comms",
+  "modid": "ws-local-comms",
   "version": "1.0.0",
-  "description": "A template project for Vintage Story modding.",
-  "website": "https://github.com/JapanHasRice/VSMod-TEMPLATE",
+  "description": "Restricts default chat to distance-based, local. Players can craft various items to chat from further away",
+  "website": "https://github.com/JapanHasRice/VSMod-WS-Local-Comms",
   "authors": [ "JapanHasRice" ],
   "contributors": [],
   "dependencies": {
-    "game": "",
-    "survival": ""
+    "game": "1.15.6",
+    "survival": "1.15.6"
   },
-  "side": "Universal",
-  "requiredOnClient": true
+  "side": "Server",
+  "requiredOnClient": false
 }
